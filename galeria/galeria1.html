@@ -4,12 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tour IPLACEX</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body>
-   <main>
-       
-   </main>
+     
+    <main>
+        <!-- Menu-->
+    <nav id="sidebar-menu" class="">
+        <sidebar id="sidebar">
+            <div id="content-sidebar">
+                <div onclick="returnHomeGaleria()" id="logo">
+                </div>
+                <!--Menú-->
+                <div id="menu">
+                    <div id="scroll-menu" class="salud-active">
+                        <!--Menu Escuelas-->
+                        <div class="menu-lateral escuelas" id="level-1">
+    
+                            <div onclick="escuelaAdministracion()" class="menu-item e-administracion">
+                                <h3>Sede Santiago</h3><i class="fa fa-angle-right"></i>
+                            </div>
+                            <div onclick="escuelaHumanidades()" onclick="escuelaHumanidades" class="menu-item e-humanidades">
+                                <h3>Sede Copiapó</h3><i class="fa fa-angle-right"></i>
+                            </div>
+                            <div onclick="escuelaProcesos()" onclick="escuelaProcIndustriales" class="menu-item e-procesos-industriales">
+                                <h3>Sede Talca</h3><i class="fa fa-angle-right"></i>
+                            </div>
+                            
+                            <div onclick="escuelaIngenieria()" class="menu-item e-ingenieria">
+                                <h3>Centros tecnológicos</h3><i class="fa fa-angle-right"></i>
+                            </div>
+                        </div>
+                        <!--FIN Menu Escuelas-->
+                    </div>
+                </div>
+                <!--Termina Menú-->
+            </div>
+        </sidebar>
+        <!--Menu Boton abri y cerrar menu-->
+        <div class="toggle-menu">
+            <i id="open" onclick="toggleSiderbarMenu()" class="fa fa-bars"></i>
+        
+        </div>
+        <!--FIN Menu Boton abri y cerrar menu-->
+    </nav>
+    <!-- Fin Menu-->
+    </main>
+    <script src="../js/main.js"></script>
 </body>
 </html>
