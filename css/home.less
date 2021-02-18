@@ -1,0 +1,76 @@
+@import "variables.less";
+
+//Home
+#logo-home{
+    text-align: center;
+    background-color: @blk;
+    height: 34vh;
+    margin: 0px auto 50px auto;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+}
+#logo-iplacex{
+    width: 450px;
+}
+#home-recorrido{
+    height: 100vh;
+    width: 100%;
+}
+.sedes-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 180px 180px;
+    grid-gap: 20px;
+    justify-content: center;
+    align-content: center;
+    margin: 0px 50px;
+    
+}
+.item-sedes{
+    //background-color: @red-iplacex;
+    border-radius: 4px;
+    font-weight: 700;
+    transition: 0.2s ease-in-out;
+    
+    }.content{
+        height: calc(100% - 60px);
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.75);
+        padding: 30px;
+        font-weight: 500;
+        font-size: 20px;
+        }
+.item-sedes:hover{
+    background-color: @red-iplacex;
+    transform: translate(0px,-10px);
+    transition: background-color 300ms ease-in;
+    
+}
+.item-sedes>.content:hover{   
+    background-color:@red-iplacex;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 100ms ease-in;
+    
+}
+.item-sedes.santiago-sede{
+    background-image: url('https://www.iplacex.cl/hubfs/img/slider-santiago.jpg');
+    background-size: cover;
+}
+.item-sedes.copiapo-sede{
+    background-image: url('https://www.iplacex.cl/hubfs/img/slider-copiapo.jpg');
+    background-size: cover;
+}
+.item-sedes.talca-sede{
+    background-image: url('https://www.iplacex.cl/hubfs/img/slider-talca.jpg');
+    background-size: cover;
+}
+.item-sedes.cte-sede{
+    background-image: url('https://www.iplacex.cl/hubfs/slide_online_bg-1.jpg');
+    background-size: cover;
+}
