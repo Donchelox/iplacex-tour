@@ -67,7 +67,7 @@
 .return:first-child {
   margin: 0px;
   padding: 15px 5px 15px 10px;
-  background-color: #ca444d;
+  background-color: #D52B1E;
   position: sticky;
   top: 0;
 }
@@ -107,7 +107,7 @@ sidebar {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('../img/logo-acreditado-w.webp');
+  background-image: url('../img/logo-iplacex.svg');
   cursor: pointer;
 }
 #menu {
@@ -141,13 +141,45 @@ sidebar {
   text-align: left;
   color: #ffffff;
 }
-.menu-item.menu-item.e-humanidades,
-.menu-item.e-procesos-industriales,
-.menu-item.e-ingenieria,
-.menu-item.e-salud,
-.menu-item.e-administracion,
-.menu-item.e-espacios-comunes,
-.menu-item.carreras-link {
+.menu-item-regresar > h3 {
+  margin: 0px;
+  font-size: 14px;
+  width: 190px;
+  font-weight: 400;
+  text-align: left;
+  color: #ffffff;
+}
+.dropdown {
+  position: relative;
+  /*display: inline-block;*/
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  top: 70px;
+  left: 0px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.sub-a {
+  padding: 15px;
+  text-align: left;
+  color: black;
+}
+.sub-a {
+  border-bottom: solid 1px #acacac;
+}
+.sub-a:last-of-type {
+  border-bottom: none;
+}
+.menu-item,
+.menu-item.carreras-link,
+.menu-item-level {
   font-size: 14px;
   padding-top: 15px;
   padding-left: 10px;
@@ -172,10 +204,10 @@ sidebar {
 }
 .menu-item {
   font-size: 14px;
-  padding-top: 6px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   background: rgba(255, 255, 255, 0.2);
-  margin: 1px 12px;
+  /*margin: 1px 12px;*/
   border-bottom: solid 1px #ffffff;
   transition-duration: 0.3s;
   display: flex;
@@ -187,9 +219,39 @@ sidebar {
 .menu-item :hover {
   cursor: pointer;
 }
-div > .menu-item:hover {
-  background-color: #ca444d;
+.menu-item-regresar {
+  font-size: 14px;
+  padding-top: 6px;
+  padding-bottom: 15px;
+  /*background: rgba(255, 255, 255, 0.2);
+    margin: 1px 12px;*/
+  border-bottom: solid 1px #ffffff;
+  transition-duration: 0.3s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+.menu-item-regresar :hover {
   cursor: pointer;
+}
+div > .menu-item:hover {
+  background-color: #D52B1E;
+  cursor: pointer;
+}
+#level-ctec {
+  position: absolute;
+  top: 0;
+  right: -250px;
+  width: 100%;
+  height: 80vh;
+}
+#scroll-menu.ctec-active {
+  transform: translate(-250px, 0px);
+  transition-duration: 0.1s;
+  transition-timing-function: ease-in-out;
+  position: relative;
 }
 #open {
   border-radius: 0px 50px 50px 0px;
@@ -200,7 +262,7 @@ div > .menu-item:hover {
   font-size: 32px;
   margin: 0px;
   cursor: pointer;
-  background-color: #ca444d;
+  background-color: #D52B1E;
   padding: 10px;
   width: 40px;
 }

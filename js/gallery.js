@@ -1,14 +1,10 @@
-var vid = document.getElementById("myVideo");
-
 function openModal() {
-  document.getElementById("modalGallery").style.display = "block";
+  document.getElementById("myModal").style.display = "block";
 }
 
 function closeModal() {
-  document.getElementById("modalGallery").style.display = "none";
-  vid.pause();
+  document.getElementById("myModal").style.display = "none";
 }
-
 
 var slideIndex = 1;
 showSlides(slideIndex);
