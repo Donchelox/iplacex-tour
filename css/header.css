@@ -72,7 +72,7 @@
   top: 0;
 }
 sidebar {
-  position: absolute;
+  position: fixed;
   z-index: 9999999;
   overflow: visible;
   width: 250px;
@@ -83,11 +83,11 @@ sidebar {
 #sidebar-menu {
   transition-duration: 0.5s;
   transition-timing-function: ease;
-  position: relative;
+  position: fixed;
   z-index: 99998;
 }
 .cerrar {
-  position: relative;
+  position: fixed;
   transform: translateX(-251px);
   transition-duration: 0.5s;
   transition-timing-function: ease;
