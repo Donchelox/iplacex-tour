@@ -24,6 +24,26 @@ h1,h2,h3,h4,p,.sub-a{
     font-family: @montserrat;
     color: @red-iplacex;
 }
+
+.volver-360{
+    z-index: 9999999999999;
+    background-color: @red-iplacex;
+    display: inline-block;
+    position: absolute;
+    top:20px;
+    right:20px;
+    width:auto;
+    height: 20px;
+    cursor: pointer;
+    padding:10px;
+    border-radius: 4px;
+    transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+
+}
+.volver-360:hover{
+    transform: scale(1.1);
+}
 //MAIN
 main{
     width: 100%;

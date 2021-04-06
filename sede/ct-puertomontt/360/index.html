@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" id="html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -103,44 +103,31 @@
         </nav>
         <!-- Fin Menu-->
    
-    <div class="main galeria">
-        <h3>Galería de fotos</h3>        
+    <div class="main galeria" id="galeria-miniaturas">
+        <h3>Galería Tour 360°</h3>        
         <div id="gallery">
             <div class="row">
               <div class="column">
-                <img loading="lazy" src="../../../img/sedes/ct-puertomontt/galeria/puertomontt-8283.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                <img loading="lazy" src="../../../img/sedes/ct-puertomontt/galeria/puertomontt-8283.jpg" style="width:100%" onclick="pMontt1();" class="hover-shadow cursor">
               </div>
               <div class="column">
-                <img loading="lazy" src="../../../img/sedes/ct-puertomontt/galeria/puertomontt-8284.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                <img loading="lazy" src="../../../img/sedes/ct-puertomontt/galeria/puertomontt-8284.jpg" style="width:100%" onclick="pMontt2();" class="hover-shadow cursor">
               </div>
               <div class="column">
-                <img loading="lazy" src="../../../img/sedes/ct-puertomontt/galeria/puertomontt-8291.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                <img loading="lazy" src="../../../img/sedes/ct-puertomontt/galeria/puertomontt-8291.jpg" style="width:100%" onclick="pMontt3();" class="hover-shadow cursor">
               </div>
-              <div class="column">
-                <img loading="lazy" src="../../../img/sedes/ct-puertomontt/galeria/puertomontt-8381.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
-              </div>
-              <div class="column">
-                <img loading="lazy" src="../../../img/sedes/ct-puertomontt/galeria/puertomontt-8384.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
-              </div>
-              <div class="column">
-                <img loading="lazy" src="../../../img/sedes/ct-puertomontt/galeria/puertomontt-8400.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
-              </div>
-              <div class="column">
-                <img loading="lazy" src="../../../img/sedes/ct-puertomontt/galeria/puertomontt-8492.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
-              </div>
-              <div class="column">
-                <img loading="lazy" src="../../../img/sedes/ct-puertomontt/galeria/puertomontt-8519.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
-              </div>
-              <div class="column">
-                <img loading="lazy" src="../../../img/sedes/ct-puertomontt/galeria/puertomontt-8521.jpg" style="width:100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
-              </div>
-              <div class="column">
-                <img loading="lazy" src="../../../img/sedes/ct-puertomontt/galeria/puertomontt-8573.jpg" style="width:100%" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
-              </div>
-              
             </div>
         </div>
     </div>
+
+     <!--Imagen 360-->
+     <section id="recorrido-360" class="d-none">
+         <div class="volver-360" onclick="volver360();"><i class="fa fa-angle-left"></i> Volver</div>
+        <a-scene>
+            <a-sky src="" rotation="0 -160 0"></a-sky>
+        </a-scene>
+    </section>
+    <!--- FIN Imagen 360-->
 
     <script src="../../../js/main.js"></script>
 
