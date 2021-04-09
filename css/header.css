@@ -163,7 +163,20 @@ sidebar {
   top: 70px;
   left: 0px;
 }
+.dropdown-content-bottom {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  bottom: 70px;
+  left: 0px;
+}
 .dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropdown-content-bottom {
   display: block;
 }
 .sub-a {
@@ -201,6 +214,9 @@ sidebar {
 }
 .menu-lateral {
   overflow-y: scroll;
+}
+.menu-item:last-child {
+  margin-bottom: 100px;
 }
 .menu-item {
   font-size: 14px;

@@ -14,6 +14,7 @@
     margin: 0px;
     font-family: @montserrat;
     background-color: #efeee9;
+    user-select: none;
 }
 //CSS
 .d-none{
@@ -26,7 +27,8 @@ h1,h2,h3,h4,p,.sub-a{
 }
 
 .volver-360{
-    z-index: 9999999999999;
+    user-select: none;
+    z-index: 99997;
     background-color: @red-iplacex;
     display: inline-block;
     position: absolute;
@@ -42,7 +44,9 @@ h1,h2,h3,h4,p,.sub-a{
 
 }
 .volver-360:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
+    background-color: @blk-rgba;
+    border: solid 2px @red-iplacex;
 }
 //MAIN
 main{
@@ -95,10 +99,16 @@ main{
     }
     .sedes-grid{
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(3, 180px);
+        grid-template-rows: repeat(3, 140px);
         padding: 0px 10px 50px 10px;
     }
     .item-sedes>.content{
         font-size:20px;
+    }
+    .main.galeria{
+        padding: 60px 0px 0px;
+    }
+    #galeria-miniaturas>h3{
+        padding-left: 20px;
     }
 }

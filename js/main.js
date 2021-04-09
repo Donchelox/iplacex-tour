@@ -3,12 +3,14 @@ var aSky = document.querySelector('a-sky');
 
 function toggleSiderbarMenu(){
     document.getElementById("sidebar-menu").classList.toggle('cerrar');
+    document.getElementById("boton-volver").classList.toggle('d-none');
 }
 function toggleCloseSiderbar(){
     document.getElementById("cerrar").classList.toggle('d-none');
+    
 }
 function centrosTecnologicos(){
-    window.location.replace("sede/ct-puertomontt/360/puertomontt-1.html");
+    window.location.replace("sede/ct-puertomontt/360/index.html");
 }
 function regresarMenu(){
     scrollMenu.removeAttribute('class');
