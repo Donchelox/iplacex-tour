@@ -10,40 +10,40 @@ function toggleCloseSiderbar(){
     
 }
 function sedeCopiapo(){
-    window.location.replace("sede/sede-copiapo/galeria/index.html");
+    window.location.replace("sede-copiapo/galeria/index.html");
 }
 function sedeSantiago(){
-    window.location.replace("sede/sede-santiago/galeria/index.html");
+    window.location.replace("sede-santiago/galeria/index.html");
 }
 function sedeTalca(){
-    window.location.replace("sede/sede-talca/galeria/index.html");
+    window.location.replace("sede-talca/galeria/index.html");
 }
 function ctecArica(){
-    window.location.replace("sede/ct-arica/galeria/index.html");
+    window.location.replace("ct-arica/galeria/index.html");
 }
 function ctecAntofagasta(){
-    window.location.replace("sede/ct-antofagasta/galeria/index.html");
+    window.location.replace("ct-antofagasta/galeria/index.html");
 }
 function ctecLaSerena(){
-    window.location.replace("sede/ct-laserena/galeria/index.html");
+    window.location.replace("ct-laserena/galeria/index.html");
 }
 function ctecValparaiso(){
-    window.location.replace("sede/ct-valparaiso/galeria/index.html");
+    window.location.replace("ct-valparaiso/galeria/index.html");
 }
 function ctecRepublica(){
-    window.location.replace("sede/ct-santiago/galeria/index.html");
+    window.location.replace("ct-santiago/galeria/index.html");
 }
 function ctecTemuco(){
-    window.location.replace("sede/ct-temuco/galeria/index.html");
+    window.location.replace("ct-temuco/galeria/index.html");
 }
 function ctecConcepcion(){
-    window.location.replace("sede/ct-concepcion/galeria/index.html");
+    window.location.replace("ct-concepcion/galeria/index.html");
 }
 function ctecPuertoMontt(){
-    window.location.replace("sede/ct-puertomontt/galeria/index.html");
+    window.location.replace("ct-puertomontt/galeria/index.html");
 }
 function ctecPuntaArenas(){
-    window.location.replace("sede/ct-puntaarenas/galeria/index.html");
+    window.location.replace("ct-puntaarenas/galeria/index.html");
 }
 function centrosTecnologicos(){
     window.location.replace("sede/ctec.html");
