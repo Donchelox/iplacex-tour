@@ -79,6 +79,46 @@ main{
 }
 .main>h3{
     text-align: center;
+    font-size:2em !important;
+}
+#ctec-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    grid-gap: 20px;
+}
+.ctec{
+    background-image: url('../img/sedes/ct-puertomontt/galeria/thumbnails/ct_fotos_puertomontt_01.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.ctec>h4{
+    height: calc(100% - 60px);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    padding: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0;
+}
+.ctec>h4:hover{
+    border-bottom: black solid 10px;
+    background-color: rgba(213,43,30,0.8);
+}
+.ctec-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 160px 160px 160px;
+    grid-gap: 20px;
+    justify-content: center;
+    align-content: center;
+    margin: 0px 50px;
+    
 }
 @media (min-width: 1440px) {
     #logo-home{
@@ -108,10 +148,16 @@ main{
     .item-sedes>.content{
         font-size:20px;
     }
+    .ctec-grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 100px);
+        padding: 0px 10px 50px 10px;
+    }
     .main.galeria{
         padding: 60px 0px 0px;
     }
     #galeria-miniaturas>h3{
-        padding-left: 20px;
+        font-size: 1.6em !important;
+        padding: 0px 20px;
     }
 }
