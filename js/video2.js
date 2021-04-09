@@ -2,6 +2,7 @@ var vid = document.getElementById("myVideo");
 
 function openModal() {
   document.getElementById("modalGallery").style.display = "block";
+  document.getElementById("sidebar-menu").classList.toggle('cerrar');
 }
 
 function closeModal() {

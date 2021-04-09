@@ -17,7 +17,7 @@ function regresarMenu(){
 }
 function sedesCTEC(){
     scrollMenu.removeAttribute('class');
-    scrollMenu.classList.toggle('administracion-active');
+    scrollMenu.classList.toggle('cte-active');
 }
 
 function volver360(){

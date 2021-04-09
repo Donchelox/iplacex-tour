@@ -206,7 +206,7 @@ sidebar {
   transition-duration: 0.1s;
   transition-timing-function: ease-in-out;
 }
-#scroll-menu.administracion-active {
+#scroll-menu.cte-active {
   transform: translate(-250px, 0px);
   transition-duration: 0.1s;
   transition-timing-function: ease-in-out;
