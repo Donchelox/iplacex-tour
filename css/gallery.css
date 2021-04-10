@@ -115,7 +115,7 @@ body {
   padding: 8px 12px;
   position: absolute;
   top: 0;
-  background: rgba(0, 70, 173, 0.94);
+  background: @red-iplacex;
 }
 
 img {

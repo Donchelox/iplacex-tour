@@ -9,7 +9,7 @@ function toggleCloseSiderbar(){
     document.getElementById("cerrar").classList.toggle('d-none');
     
 }
-function sedeCopiapo(){
+/*function sedeCopiapo(){
     window.location.replace("sede/sede-copiapo/galeria/index.html");
 }
 function sedeSantiago(){
@@ -47,7 +47,7 @@ function ctecPuntaArenas(){
 }
 function centrosTecnologicos(){
     window.location.replace("sede/ctec.html");
-}
+}*/
 function regresarMenu(){
     scrollMenu.removeAttribute('class');
 }
