@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour IPLACEX</title>
+    <link rel="stylesheet" href="../../../css/main.css">
+    <link rel="stylesheet" href="../../../css/gallery.css" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    </head>
+<body>
+<main>
+    <!-- Menu-->
+    <nav id="sidebar-menu" class="cerrar">
+      <sidebar id="sidebar">
+          <div id="content-sidebar">
+              <a href="../../../index.html">
+                  <div onclick="returnHomeGaleria()" id="logo"></div>
+              </a>
+              <!--Menú-->
+              <div id="menu">
+                  <div id="scroll-menu" class="cte-active">
+                      <!--Menu sedes-->
+                      <div class="menu-lateral escuelas" id="level-1">
+  
+                          <div onclick="escuelaAdministracion()" class="menu-item carreras-link  dropdown">
+                              <h3>Sede Santiago</h3><i class="fa fa-angle-down"></i>
+                              <div class="dropdown-content">
+                                  <a href="../../sede-santiago/360/index.html">
+                                    <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                  <a href="../../sede-santiago/galeria/index.html">
+                                    <div class="sub-a icon-gallery">Galería</div></a>
+                                    <a href="../../sede-santiago/videos/index.html">
+                                        <div class="sub-a icon-gallery">Videos</div></a>
+                                </div>
+                          </div>
+                          <div onclick="escuelaHumanidades()" onclick="escuelaHumanidades" class="menu-item carreras-link  dropdown">
+                              <h3>Sede Copiapó</h3><i class="fa fa-angle-down"></i>
+                              <div class="dropdown-content">
+                                  <a href="../../sede-copiapo/360/index.html">
+                                    <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                  <a href="../../sede-copiapo/galeria/index.html">
+                                    <div class="sub-a icon-gallery">Galería</div></a>
+                                    <a href="../../sede-copiapo/videos/index.html">
+                                        <div class="sub-a icon-gallery">Videos</div></a>
+                                </div>
+                          </div>
+                          <div onclick="escuelaHumanidades()" onclick="escuelaHumanidades" class="menu-item carreras-link  dropdown">
+                              <h3>Sede Talca</h3><i class="fa fa-angle-down"></i>
+                              <div class="dropdown-content-bottom">
+                                  <a href="../../sede-talca/360/index.html">
+                                    <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                  <a href="../../sede-talca/galeria/index.html">
+                                    <div class="sub-a icon-gallery">Galería</div></a>
+                                    <a href="../../sede-talca/videos/index.html">
+                                        <div class="sub-a icon-gallery">Videos</div></a>
+                                </div>
+                          </div>
+                          
+                          <div onclick="sedesCTEC()" class="menu-item carreras-link">
+                              <h3>Centros tecnológicos</h3><i class="fa fa-angle-right"></i>
+                          </div>
+                      </div>
+                      <!--FIN Menu sedes-->
+                      <!--Menu CT-->
+                      <div class="menu-lateral escuelas" id="level-ctec">
+                          <div onclick="regresarMenu()" class="menu-item-regresar menu-item-level">
+                              <h3><i class="fa fa-angle-left"></i> Regresar</h3></i>
+                          </div>
+                          <div class="menu-item carreras-link dropdown">
+                              <h3>CTEC Arica</h3><i class="fa fa-angle-down"></i>
+                              <div class="dropdown-content">
+                                  <a href="../../ct-arica/360/index.html">
+                                    <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                  <a href="../../ct-arica/galeria/index.html">
+                                    <div class="sub-a icon-gallery">Galería</div></a>
+                                    <a href="../../ct-arica/videos/index.html">
+                                        <div class="sub-a icon-gallery">Videos</div></a>
+                              </div>
+                          </div>
+                          <div class="menu-item carreras-link dropdown">
+                              <h3>CTEC Antofagasta</h3><i class="fa fa-angle-down"></i>
+                              <div class="dropdown-content">
+                                  <a href="../../ct-antofagasta/360/index.html">
+                                    <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                  <a href="../../ct-antofagasta/galeria/index.html">
+                                    <div class="sub-a icon-gallery">Galería</div></a>
+                                    <a href="../../ct-antofagasta/videos/index.html">
+                                        <div class="sub-a icon-gallery">Videos</div></a>
+                              </div>
+                          </div>
+                          <div class="menu-item carreras-link dropdown">
+                              <h3>CTEC La Serena</h3><i class="fa fa-angle-down"></i>
+                              <div class="dropdown-content">
+                                  <a href="../../ct-laserena/360/index.html">
+                                    <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                  <a href="../../ct-laserena/galeria/index.html">
+                                    <div class="sub-a icon-gallery">Galería</div></a>
+                                    <a href="../../ct-laserena/videos/index.html">
+                                        <div class="sub-a icon-gallery">Videos</div></a>
+                              </div>
+                          </div>
+                          
+                          <div class="menu-item carreras-link dropdown">
+                              <h3>CTEC Valparaíso</h3><i class="fa fa-angle-down"></i>
+                              <div class="dropdown-content">
+                                  <a href="../../ct-valparaiso/360/index.html">
+                                    <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                  <a href="../../ct-valparaiso/galeria/index.html">
+                                    <div class="sub-a icon-gallery">Galería</div></a>
+                                    <a href="../../ct-valparaiso/videos/index.html">
+                                        <div class="sub-a icon-gallery">Videos</div></a>
+                              </div>
+                          </div>
+                          <div class="menu-item carreras-link dropdown">
+                              <h3>CTEC Santiago</h3><i class="fa fa-angle-down"></i>
+                              <div class="dropdown-content">
+                                  <a href="../../ct-santiago/360/index.html">
+                                    <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                  <a href="../../ct-santiago/galeria/index.html">
+                                    <div class="sub-a icon-gallery">Galería</div></a>
+                                    <a href="../../ct-santiago/videos/index.html">
+                                        <div class="sub-a icon-gallery">Videos</div></a>
+                              </div>
+                          </div>
+                          <div class="menu-item carreras-link dropdown">
+                              <h3>CTEC Temuco</h3><i class="fa fa-angle-down"></i>
+                              <div class="dropdown-content">
+                                  <a href="../../ct-temuco/360/index.html">
+                                    <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                  <a href="../../ct-temuco/galeria/index.html">
+                                    <div class="sub-a icon-gallery">Galería</div></a>
+                                    <a href="../../ct-temuco/videos/index.html">
+                                        <div class="sub-a icon-gallery">Videos</div></a>
+                              </div>
+                          </div>
+                          <div class="menu-item carreras-link dropdown">
+                              <h3>CTEC Concepción</h3><i class="fa fa-angle-down"></i>
+                              <div class="dropdown-content">
+                                  <a href="../../ct-concepcion/360/index.html">
+                                    <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                  <a href="../../ct-concepcion/galeria/index.html">
+                                    <div class="sub-a icon-gallery">Galería</div></a>
+                                    <a href="../../ct-concepcion/videos/index.html">
+                                        <div class="sub-a icon-gallery">Videos</div></a>
+                              </div>
+                          </div>
+                          <div class="menu-item carreras-link dropdown">
+                              <h3>CTEC Puerto Montt</h3><i class="fa fa-angle-down"></i>
+                              <div class="dropdown-content">
+                                <a href="../../ct-puertomontt/360/index.html">
+                                  <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                <a href="../../ct-puertomontt/galeria/index.html">
+                                  <div class="sub-a icon-gallery">Galería</div></a>
+                                  <a href="../../ct-puertomontt/videos/index.html">
+                                      <div class="sub-a icon-gallery">Videos</div></a>
+                              </div>
+                          </div>
+                          <div onclick="escuelaIngenieria()" class="menu-item menu-item-level dropdown">
+                              <h3>CTEC Punta Arenas</h3><i class="fa fa-angle-down"></i>
+                              <div class="dropdown-content-bottom">
+                                  <a href="../../ct-puntaarenas/360/index.html">
+                                    <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                  <a href="../../ct-puntaarenas/galeria/index.html">
+                                    <div class="sub-a icon-gallery">Galería</div></a>
+                                    <a href="../../ct-puntaarenas/videos/index.html">
+                                        <div class="sub-a icon-gallery">Videos</div></a>
+                                </div>
+                          </div>
+                      </div>
+                      <!--FIN Menu CT-->
+                  </div>
+              </div>
+              <!--Termina Menú-->
+          </div>
+      </sidebar>
+      <!--Menu Boton abri y cerrar menu-->
+      <div class="toggle-menu">
+          <i id="open" onclick="toggleSiderbarMenu()" class="fa fa-bars"></i>
+      
+      </div>
+      <!--FIN Menu Boton abri y cerrar menu-->
+  </nav>
+  <!-- Fin Menu-->
+   
+    <div class="main galeria">
+        <h3>Sede Copiapó - Galería de fotos</h3>        
+        <div id="gallery">
+            <div class="row">
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_01.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_02.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_03.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_04.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_05.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_06.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_07.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_08.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_09.jpg" style="width:100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_10.jpg" style="width:100%" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_11.jpg" style="width:100%" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_12.jpg" style="width:100%" onclick="openModal();currentSlide(12)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_13.jpg" style="width:100%" onclick="openModal();currentSlide(13)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_14.jpg" style="width:100%" onclick="openModal();currentSlide(14)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_15.jpg" style="width:100%" onclick="openModal();currentSlide(15)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_16.jpg" style="width:100%" onclick="openModal();currentSlide(16)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_17.jpg" style="width:100%" onclick="openModal();currentSlide(17)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_18.jpg" style="width:100%" onclick="openModal();currentSlide(18)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_19.jpg" style="width:100%" onclick="openModal();currentSlide(19)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_20.jpg" style="width:100%" onclick="openModal();currentSlide(20)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_21.jpg" style="width:100%" onclick="openModal();currentSlide(21)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_22.jpg" style="width:100%" onclick="openModal();currentSlide(22)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_23.jpg" style="width:100%" onclick="openModal();currentSlide(23)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_24.jpg" style="width:100%" onclick="openModal();currentSlide(24)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_25.jpg" style="width:100%" onclick="openModal();currentSlide(25)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_26.jpg" style="width:100%" onclick="openModal();currentSlide(26)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_27.jpg" style="width:100%" onclick="openModal();currentSlide(27)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_28.jpg" style="width:100%" onclick="openModal();currentSlide(28)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_29.jpg" style="width:100%" onclick="openModal();currentSlide(29)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_30.jpg" style="width:100%" onclick="openModal();currentSlide(30)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_31.jpg" style="width:100%" onclick="openModal();currentSlide(31)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_32.jpg" style="width:100%" onclick="openModal();currentSlide(32)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_33.jpg" style="width:100%" onclick="openModal();currentSlide(33)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_34.jpg" style="width:100%" onclick="openModal();currentSlide(34)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_35.jpg" style="width:100%" onclick="openModal();currentSlide(35)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_36.jpg" style="width:100%" onclick="openModal();currentSlide(36)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_37.jpg" style="width:100%" onclick="openModal();currentSlide(37)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_38.jpg" style="width:100%" onclick="openModal();currentSlide(38)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_39.jpg" style="width:100%" onclick="openModal();currentSlide(39)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_40.jpg" style="width:100%" onclick="openModal();currentSlide(40)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_41.jpg" style="width:100%" onclick="openModal();currentSlide(41)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_42.jpg" style="width:100%" onclick="openModal();currentSlide(42)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_43.jpg" style="width:100%" onclick="openModal();currentSlide(43)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_44.jpg" style="width:100%" onclick="openModal();currentSlide(44)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_45.jpg" style="width:100%" onclick="openModal();currentSlide(45)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_46.jpg" style="width:100%" onclick="openModal();currentSlide(46)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_47.jpg" style="width:100%" onclick="openModal();currentSlide(47)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_48.jpg" style="width:100%" onclick="openModal();currentSlide(48)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_49.jpg" style="width:100%" onclick="openModal();currentSlide(49)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_50.jpg" style="width:100%" onclick="openModal();currentSlide(50)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_51.jpg" style="width:100%" onclick="openModal();currentSlide(51)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_52.jpg" style="width:100%" onclick="openModal();currentSlide(52)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_53.jpg" style="width:100%" onclick="openModal();currentSlide(53)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_54.jpg" style="width:100%" onclick="openModal();currentSlide(54)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_55.jpg" style="width:100%" onclick="openModal();currentSlide(55)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/thumbnails/sd_fotos_talca_56.jpg" style="width:100%" onclick="openModal();currentSlide(56)" class="hover-shadow cursor">
+              </div>
+            </div>
+          </div>
+            
+            <div id="myModal" class="modal">
+              <span class="close cursor" onclick="closeModal()">&times;</span>
+              <div class="modal-content">
+            
+                <div class="mySlides">
+                  <div class="numbertext">1 / 56</div>
+                  <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_01.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">2 / 56</div>
+                    <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_02.jpg" style="width:100%">
+                  </div>
+                  <div class="mySlides">
+                    <div class="numbertext">3 / 56</div>
+                    <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_03.jpg" style="width:100%">
+                  </div>
+                  <div class="mySlides">
+                    <div class="numbertext">4 / 56</div>
+                    <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_04.jpg" style="width:100%">
+                  </div>
+                  <div class="mySlides">
+                    <div class="numbertext">5 / 56</div>
+                    <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_05.jpg" style="width:100%">
+                  </div>
+                  <div class="mySlides">
+                    <div class="numbertext">6 / 56</div>
+                    <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_06.jpg" style="width:100%">
+                  </div>
+                  <div class="mySlides">
+                    <div class="numbertext">7 / 56</div>
+                    <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_07.jpg" style="width:100%">
+                  </div>
+                  <div class="mySlides">
+                    <div class="numbertext">8 / 56</div>
+                    <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_08.jpg" style="width:100%">
+                  </div>
+                  <div class="mySlides">
+                    <div class="numbertext">9 / 56</div>
+                    <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_09.jpg" style="width:100%">
+                  </div>
+                  <div class="mySlides">
+                    <div class="numbertext">10 / 56</div>
+                    <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_10.jpg" style="width:100%">
+                  </div>
+                  <div class="mySlides">
+                    <div class="numbertext">11 / 56</div>
+                    <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_11.jpg" style="width:100%">
+                  </div>
+                  <div class="mySlides">
+                      <div class="numbertext">12 / 56</div>
+                      <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_12.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">13 / 56</div>
+                      <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_13.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">14 / 56</div>
+                      <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_14.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">15 / 56</div>
+                      <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_15.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">16 / 56</div>
+                      <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_16.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">17 / 56</div>
+                      <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_17.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">18 / 56</div>
+                      <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_18.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">19 / 56</div>
+                      <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_19.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">20 / 56</div>
+                        <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_20.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">21 / 56</div>
+                        <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_21.jpg" style="width:100%">
+                      </div>
+                      <div class="mySlides">
+                          <div class="numbertext">22 / 56</div>
+                          <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_22.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                          <div class="numbertext">23 / 56</div>
+                          <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_23.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                          <div class="numbertext">24 / 56</div>
+                          <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_24.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                          <div class="numbertext">25 / 56</div>
+                          <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_25.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                          <div class="numbertext">26 / 56</div>
+                          <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_26.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                          <div class="numbertext">27 / 56</div>
+                          <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_27.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                          <div class="numbertext">28 / 56</div>
+                          <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_28.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                          <div class="numbertext">29 / 56</div>
+                          <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_29.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                          <div class="numbertext">30 / 56</div>
+                          <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_30.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                          <div class="numbertext">31 / 56</div>
+                          <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_31.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                            <div class="numbertext">32 / 56</div>
+                            <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_32.jpg" style="width:100%">
+                          </div>
+                          <div class="mySlides">
+                            <div class="numbertext">33 / 56</div>
+                            <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_33.jpg" style="width:100%">
+                          </div>
+                          <div class="mySlides">
+                            <div class="numbertext">34 / 56</div>
+                            <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_34.jpg" style="width:100%">
+                          </div>
+                          <div class="mySlides">
+                            <div class="numbertext">35 / 56</div>
+                            <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_35.jpg" style="width:100%">
+                          </div>
+                          <div class="mySlides">
+                            <div class="numbertext">36 / 56</div>
+                            <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_36.jpg" style="width:100%">
+                          </div>
+                          <div class="mySlides">
+                            <div class="numbertext">37 / 56</div>
+                            <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_37.jpg" style="width:100%">
+                          </div>
+                          <div class="mySlides">
+                            <div class="numbertext">38 / 56</div>
+                            <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_38.jpg" style="width:100%">
+                          </div>
+                          <div class="mySlides">
+                            <div class="numbertext">39 / 56</div>
+                            <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_39.jpg" style="width:100%">
+                          </div>
+                          <div class="mySlides">
+                              <div class="numbertext">40 / 56</div>
+                              <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_40.jpg" style="width:100%">
+                          </div>
+                          <div class="mySlides">
+                            <div class="numbertext">41 / 56</div>
+                            <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_41.jpg" style="width:100%">
+                          </div>
+                          <div class="mySlides">
+                              <div class="numbertext">42 / 56</div>
+                              <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_42.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides">
+                              <div class="numbertext">43 / 56</div>
+                              <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_43.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides">
+                              <div class="numbertext">44 / 56</div>
+                              <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_44.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides">
+                              <div class="numbertext">45 / 56</div>
+                              <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_45.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides">
+                              <div class="numbertext">46 / 56</div>
+                              <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_46.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides">
+                              <div class="numbertext">47 / 56</div>
+                              <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_47.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides">
+                              <div class="numbertext">48 / 56</div>
+                              <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_48.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides">
+                              <div class="numbertext">49 / 56</div>
+                              <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_49.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides">
+                              <div class="numbertext">50 / 56</div>
+                              <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_50.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides">
+                              <div class="numbertext">51 / 56</div>
+                              <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_51.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides">
+                                <div class="numbertext">52 / 56</div>
+                                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_52.jpg" style="width:100%">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">53 / 56</div>
+                                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_53.jpg" style="width:100%">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">54 / 56</div>
+                                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_54.jpg" style="width:100%">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">55 / 56</div>
+                                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_55.jpg" style="width:100%">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">56 / 56</div>
+                                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_56.jpg" style="width:100%">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">57 / 56</div>
+                                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_57.jpg" style="width:100%">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">58 / 56</div>
+                                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_58.jpg" style="width:100%">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">59 / 56</div>
+                                <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_59.jpg" style="width:100%">
+                              </div>
+                              <div class="mySlides">
+                                  <div class="numbertext">60 / 56</div>
+                                  <img loading="lazy" src="../../../img/sedes/sede-talca/galeria/sd_fotos_talca_60.jpg" style="width:100%">
+                              </div>
+
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+                <div class="caption-container">
+                  <p id="caption"></p>
+                </div>
+              </div>
+            </div>
+
+
+
+        
+    </div>
+    <script src="../../../js/main.js"></script>
+    <script src="../../../js/gallery.js"></script>
+
+    <script>
+        ;(function() {
+            
+            
+            // other stuff
+            function setClickHandler(id, fn) {
+                document.getElementById(id).onclick = fn
+            }
+
+            setClickHandler('video_container', function(e) {
+                var className = e.target.className
+                if (~className.indexOf('htmlvid')) {
+                    BigPicture({
+                        el: e.target,
+                        vidSrc: e.target.getAttribute('vidSrc'),
+                    })
+                } else if (~className.indexOf('vimeo')) {
+                    BigPicture({
+                        el: e.target,
+                        vimeoSrc: e.target.getAttribute('vimeoSrc'),
+                    })
+                } else if (~className.indexOf('twin-peaks')) {
+                    BigPicture({
+                        el: e.target,
+                        ytSrc: e.target.getAttribute('ytSrc'),
+                        dimensions: [1226, 900],
+                    })
+                } else if (~className.indexOf('youtube')) {
+                    BigPicture({
+                        el: e.target,
+                        ytSrc: e.target.getAttribute('ytSrc'),
+                    })
+                }
+            })
+            
+        })()
+        
+    </script>
+    
+</body>
+</html>i

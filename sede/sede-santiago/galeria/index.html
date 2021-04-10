@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour IPLACEX</title>
+    <link rel="stylesheet" href="../../../css/main.css">
+    <link rel="stylesheet" href="../../../css/gallery.css" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    </head>
+<body>
+<main>
+    <!-- Menu-->
+    <nav id="sidebar-menu" class="cerrar">
+      <sidebar id="sidebar">
+          <div id="content-sidebar">
+              <a href="../../../index.html">
+                  <div onclick="returnHomeGaleria()" id="logo"></div>
+              </a>
+              <!--Menú-->
+              <div id="menu">
+                  <div id="scroll-menu" class="cte-active">
+                      <!--Menu sedes-->
+                      <div class="menu-lateral escuelas" id="level-1">
+  
+                          <div onclick="escuelaAdministracion()" class="menu-item carreras-link  dropdown">
+                              <h3>Sede Santiago</h3><i class="fa fa-angle-down"></i>
+                              <div class="dropdown-content">
+                                  <a href="../../sede-santiago/360/index.html">
+                                    <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                  <a href="../../sede-santiago/galeria/index.html">
+                                    <div class="sub-a icon-gallery">Galería</div></a>
+                                    <a href="../../sede-santiago/videos/index.html">
+                                        <div class="sub-a icon-gallery">Videos</div></a>
+                                </div>
+                          </div>
+                          <div onclick="escuelaHumanidades()" onclick="escuelaHumanidades" class="menu-item carreras-link  dropdown">
+                              <h3>Sede Copiapó</h3><i class="fa fa-angle-down"></i>
+                              <div class="dropdown-content">
+                                  <a href="../../sede-copiapo/360/index.html">
+                                    <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                  <a href="../../sede-copiapo/galeria/index.html">
+                                    <div class="sub-a icon-gallery">Galería</div></a>
+                                    <a href="../../sede-copiapo/videos/index.html">
+                                        <div class="sub-a icon-gallery">Videos</div></a>
+                                </div>
+                          </div>
+                          <div onclick="escuelaHumanidades()" onclick="escuelaHumanidades" class="menu-item carreras-link  dropdown">
+                              <h3>Sede Talca</h3><i class="fa fa-angle-down"></i>
+                              <div class="dropdown-content-bottom">
+                                  <a href="../../sede-talca/360/index.html">
+                                    <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                  <a href="../../sede-talca/galeria/index.html">
+                                    <div class="sub-a icon-gallery">Galería</div></a>
+                                    <a href="../../sede-talca/videos/index.html">
+                                        <div class="sub-a icon-gallery">Videos</div></a>
+                                </div>
+                          </div>
+                          
+                          <div onclick="sedesCTEC()" class="menu-item carreras-link">
+                              <h3>Centros tecnológicos</h3><i class="fa fa-angle-right"></i>
+                          </div>
+                      </div>
+                      <!--FIN Menu sedes-->
+                      <!--Menu CT-->
+                      <div class="menu-lateral escuelas" id="level-ctec">
+                          <div onclick="regresarMenu()" class="menu-item-regresar menu-item-level">
+                              <h3><i class="fa fa-angle-left"></i> Regresar</h3></i>
+                          </div>
+                          <div class="menu-item carreras-link dropdown">
+                              <h3>CTEC Arica</h3><i class="fa fa-angle-down"></i>
+                              <div class="dropdown-content">
+                                  <a href="../../ct-arica/360/index.html">
+                                    <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                  <a href="../../ct-arica/galeria/index.html">
+                                    <div class="sub-a icon-gallery">Galería</div></a>
+                                    <a href="../../ct-arica/videos/index.html">
+                                        <div class="sub-a icon-gallery">Videos</div></a>
+                              </div>
+                          </div>
+                          <div class="menu-item carreras-link dropdown">
+                              <h3>CTEC Antofagasta</h3><i class="fa fa-angle-down"></i>
+                              <div class="dropdown-content">
+                                  <a href="../../ct-antofagasta/360/index.html">
+                                    <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                  <a href="../../ct-antofagasta/galeria/index.html">
+                                    <div class="sub-a icon-gallery">Galería</div></a>
+                                    <a href="../../ct-antofagasta/videos/index.html">
+                                        <div class="sub-a icon-gallery">Videos</div></a>
+                              </div>
+                          </div>
+                          <div class="menu-item carreras-link dropdown">
+                              <h3>CTEC La Serena</h3><i class="fa fa-angle-down"></i>
+                              <div class="dropdown-content">
+                                  <a href="../../ct-laserena/360/index.html">
+                                    <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                  <a href="../../ct-laserena/galeria/index.html">
+                                    <div class="sub-a icon-gallery">Galería</div></a>
+                                    <a href="../../ct-laserena/videos/index.html">
+                                        <div class="sub-a icon-gallery">Videos</div></a>
+                              </div>
+                          </div>
+                          
+                          <div class="menu-item carreras-link dropdown">
+                              <h3>CTEC Valparaíso</h3><i class="fa fa-angle-down"></i>
+                              <div class="dropdown-content">
+                                  <a href="../../ct-valparaiso/360/index.html">
+                                    <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                  <a href="../../ct-valparaiso/galeria/index.html">
+                                    <div class="sub-a icon-gallery">Galería</div></a>
+                                    <a href="../../ct-valparaiso/videos/index.html">
+                                        <div class="sub-a icon-gallery">Videos</div></a>
+                              </div>
+                          </div>
+                          <div class="menu-item carreras-link dropdown">
+                              <h3>CTEC Santiago</h3><i class="fa fa-angle-down"></i>
+                              <div class="dropdown-content">
+                                  <a href="../../ct-santiago/360/index.html">
+                                    <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                  <a href="../../ct-santiago/galeria/index.html">
+                                    <div class="sub-a icon-gallery">Galería</div></a>
+                                    <a href="../../ct-santiago/videos/index.html">
+                                        <div class="sub-a icon-gallery">Videos</div></a>
+                              </div>
+                          </div>
+                          <div class="menu-item carreras-link dropdown">
+                              <h3>CTEC Temuco</h3><i class="fa fa-angle-down"></i>
+                              <div class="dropdown-content">
+                                  <a href="../../ct-temuco/360/index.html">
+                                    <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                  <a href="../../ct-temuco/galeria/index.html">
+                                    <div class="sub-a icon-gallery">Galería</div></a>
+                                    <a href="../../ct-temuco/videos/index.html">
+                                        <div class="sub-a icon-gallery">Videos</div></a>
+                              </div>
+                          </div>
+                          <div class="menu-item carreras-link dropdown">
+                              <h3>CTEC Concepción</h3><i class="fa fa-angle-down"></i>
+                              <div class="dropdown-content">
+                                  <a href="../../ct-concepcion/360/index.html">
+                                    <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                  <a href="../../ct-concepcion/galeria/index.html">
+                                    <div class="sub-a icon-gallery">Galería</div></a>
+                                    <a href="../../ct-concepcion/videos/index.html">
+                                        <div class="sub-a icon-gallery">Videos</div></a>
+                              </div>
+                          </div>
+                          <div class="menu-item carreras-link dropdown">
+                              <h3>CTEC Puerto Montt</h3><i class="fa fa-angle-down"></i>
+                              <div class="dropdown-content">
+                                <a href="../../ct-puertomontt/360/index.html">
+                                  <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                <a href="../../ct-puertomontt/galeria/index.html">
+                                  <div class="sub-a icon-gallery">Galería</div></a>
+                                  <a href="../../ct-puertomontt/videos/index.html">
+                                      <div class="sub-a icon-gallery">Videos</div></a>
+                              </div>
+                          </div>
+                          <div onclick="escuelaIngenieria()" class="menu-item menu-item-level dropdown">
+                              <h3>CTEC Punta Arenas</h3><i class="fa fa-angle-down"></i>
+                              <div class="dropdown-content-bottom">
+                                  <a href="../../ct-puntaarenas/360/index.html">
+                                    <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                  <a href="../../ct-puntaarenas/galeria/index.html">
+                                    <div class="sub-a icon-gallery">Galería</div></a>
+                                    <a href="../../ct-puntaarenas/videos/index.html">
+                                        <div class="sub-a icon-gallery">Videos</div></a>
+                                </div>
+                          </div>
+                      </div>
+                      <!--FIN Menu CT-->
+                  </div>
+              </div>
+              <!--Termina Menú-->
+          </div>
+      </sidebar>
+      <!--Menu Boton abri y cerrar menu-->
+      <div class="toggle-menu">
+          <i id="open" onclick="toggleSiderbarMenu()" class="fa fa-bars"></i>
+      
+      </div>
+      <!--FIN Menu Boton abri y cerrar menu-->
+  </nav>
+  <!-- Fin Menu-->
+   
+    <div class="main galeria">
+        <h3>Sede Santiago - Galería de fotos</h3>        
+        <div id="gallery">
+            <div class="row">
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_01.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_02.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_03.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_04.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_05.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_06.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_07.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_08.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_09.jpg" style="width:100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_10.jpg" style="width:100%" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_11.jpg" style="width:100%" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_12.jpg" style="width:100%" onclick="openModal();currentSlide(12)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_13.jpg" style="width:100%" onclick="openModal();currentSlide(13)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_14.jpg" style="width:100%" onclick="openModal();currentSlide(14)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_15.jpg" style="width:100%" onclick="openModal();currentSlide(15)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_16.jpg" style="width:100%" onclick="openModal();currentSlide(16)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_17.jpg" style="width:100%" onclick="openModal();currentSlide(17)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_18.jpg" style="width:100%" onclick="openModal();currentSlide(18)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_19.jpg" style="width:100%" onclick="openModal();currentSlide(19)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_20.jpg" style="width:100%" onclick="openModal();currentSlide(20)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_21.jpg" style="width:100%" onclick="openModal();currentSlide(21)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_22.jpg" style="width:100%" onclick="openModal();currentSlide(22)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_23.jpg" style="width:100%" onclick="openModal();currentSlide(23)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_24.jpg" style="width:100%" onclick="openModal();currentSlide(24)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_25.jpg" style="width:100%" onclick="openModal();currentSlide(25)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_26.jpg" style="width:100%" onclick="openModal();currentSlide(26)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_27.jpg" style="width:100%" onclick="openModal();currentSlide(27)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_28.jpg" style="width:100%" onclick="openModal();currentSlide(28)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_29.jpg" style="width:100%" onclick="openModal();currentSlide(29)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_30.jpg" style="width:100%" onclick="openModal();currentSlide(30)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_31.jpg" style="width:100%" onclick="openModal();currentSlide(31)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_32.jpg" style="width:100%" onclick="openModal();currentSlide(32)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_33.jpg" style="width:100%" onclick="openModal();currentSlide(33)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_34.jpg" style="width:100%" onclick="openModal();currentSlide(34)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_35.jpg" style="width:100%" onclick="openModal();currentSlide(35)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_36.jpg" style="width:100%" onclick="openModal();currentSlide(36)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_37.jpg" style="width:100%" onclick="openModal();currentSlide(37)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_38.jpg" style="width:100%" onclick="openModal();currentSlide(38)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_39.jpg" style="width:100%" onclick="openModal();currentSlide(39)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_40.jpg" style="width:100%" onclick="openModal();currentSlide(40)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_41.jpg" style="width:100%" onclick="openModal();currentSlide(41)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_42.jpg" style="width:100%" onclick="openModal();currentSlide(42)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_43.jpg" style="width:100%" onclick="openModal();currentSlide(43)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_44.jpg" style="width:100%" onclick="openModal();currentSlide(44)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_45.jpg" style="width:100%" onclick="openModal();currentSlide(45)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_46.jpg" style="width:100%" onclick="openModal();currentSlide(46)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_47.jpg" style="width:100%" onclick="openModal();currentSlide(47)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_48.jpg" style="width:100%" onclick="openModal();currentSlide(48)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_49.jpg" style="width:100%" onclick="openModal();currentSlide(49)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_50.jpg" style="width:100%" onclick="openModal();currentSlide(50)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_51.jpg" style="width:100%" onclick="openModal();currentSlide(51)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_52.jpg" style="width:100%" onclick="openModal();currentSlide(52)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_53.jpg" style="width:100%" onclick="openModal();currentSlide(53)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_54.jpg" style="width:100%" onclick="openModal();currentSlide(54)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_55.jpg" style="width:100%" onclick="openModal();currentSlide(55)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_56.jpg" style="width:100%" onclick="openModal();currentSlide(56)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_57.jpg" style="width:100%" onclick="openModal();currentSlide(57)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_58.jpg" style="width:100%" onclick="openModal();currentSlide(58)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_59.jpg" style="width:100%" onclick="openModal();currentSlide(59)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_60.jpg" style="width:100%" onclick="openModal();currentSlide(60)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_61.jpg" style="width:100%" onclick="openModal();currentSlide(61)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_62.jpg" style="width:100%" onclick="openModal();currentSlide(62)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_63.jpg" style="width:100%" onclick="openModal();currentSlide(63)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_64.jpg" style="width:100%" onclick="openModal();currentSlide(64)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_65.jpg" style="width:100%" onclick="openModal();currentSlide(65)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_66.jpg" style="width:100%" onclick="openModal();currentSlide(66)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_67.jpg" style="width:100%" onclick="openModal();currentSlide(67)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_68.jpg" style="width:100%" onclick="openModal();currentSlide(68)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_69.jpg" style="width:100%" onclick="openModal();currentSlide(69)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_70.jpg" style="width:100%" onclick="openModal();currentSlide(70)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_71.jpg" style="width:100%" onclick="openModal();currentSlide(71)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_72.jpg" style="width:100%" onclick="openModal();currentSlide(72)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_73.jpg" style="width:100%" onclick="openModal();currentSlide(73)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_74.jpg" style="width:100%" onclick="openModal();currentSlide(74)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_75.jpg" style="width:100%" onclick="openModal();currentSlide(75)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_76.jpg" style="width:100%" onclick="openModal();currentSlide(76)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_77.jpg" style="width:100%" onclick="openModal();currentSlide(77)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_78.jpg" style="width:100%" onclick="openModal();currentSlide(78)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_79.jpg" style="width:100%" onclick="openModal();currentSlide(79)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_80.jpg" style="width:100%" onclick="openModal();currentSlide(80)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_81.jpg" style="width:100%" onclick="openModal();currentSlide(81)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_82.jpg" style="width:100%" onclick="openModal();currentSlide(82)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_83.jpg" style="width:100%" onclick="openModal();currentSlide(83)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_84.jpg" style="width:100%" onclick="openModal();currentSlide(84)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_85.jpg" style="width:100%" onclick="openModal();currentSlide(85)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_86.jpg" style="width:100%" onclick="openModal();currentSlide(86)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/thumbnails/sd_fotos_santiago_87.jpg" style="width:100%" onclick="openModal();currentSlide(87)" class="hover-shadow cursor">
+              </div>
+            </div>
+          </div>
+            
+            <div id="myModal" class="modal">
+              <span class="close cursor" onclick="closeModal()">&times;</span>
+              <div class="modal-content">
+            
+                <div class="mySlides">
+                  <div class="numbertext">1 / 88</div>
+                  <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_01.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">2 / 88</div>
+                    <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_02.jpg" style="width:100%">
+                  </div>
+                  <div class="mySlides">
+                    <div class="numbertext">3 / 88</div>
+                    <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_03.jpg" style="width:100%">
+                  </div>
+                  <div class="mySlides">
+                    <div class="numbertext">4 / 88</div>
+                    <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_04.jpg" style="width:100%">
+                  </div>
+                  <div class="mySlides">
+                    <div class="numbertext">5 / 88</div>
+                    <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_05.jpg" style="width:100%">
+                  </div>
+                  <div class="mySlides">
+                    <div class="numbertext">6 / 88</div>
+                    <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_06.jpg" style="width:100%">
+                  </div>
+                  <div class="mySlides">
+                    <div class="numbertext">7 / 88</div>
+                    <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_07.jpg" style="width:100%">
+                  </div>
+                  <div class="mySlides">
+                    <div class="numbertext">8 / 88</div>
+                    <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_08.jpg" style="width:100%">
+                  </div>
+                  <div class="mySlides">
+                    <div class="numbertext">9 / 88</div>
+                    <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_09.jpg" style="width:100%">
+                  </div>
+                  <div class="mySlides">
+                    <div class="numbertext">10 / 88</div>
+                    <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_10.jpg" style="width:100%">
+                  </div>
+                  <div class="mySlides">
+                    <div class="numbertext">11 / 88</div>
+                    <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_11.jpg" style="width:100%">
+                  </div>
+                  <div class="mySlides">
+                      <div class="numbertext">12 / 88</div>
+                      <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_12.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">13 / 88</div>
+                      <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_13.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">14 / 88</div>
+                      <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_14.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">15 / 88</div>
+                      <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_15.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">16 / 88</div>
+                      <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_16.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">17 / 88</div>
+                      <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_17.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">18 / 88</div>
+                      <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_18.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">19 / 88</div>
+                      <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_19.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">20 / 88</div>
+                        <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_20.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">21 / 88</div>
+                        <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_21.jpg" style="width:100%">
+                      </div>
+                      <div class="mySlides">
+                          <div class="numbertext">22 / 88</div>
+                          <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_22.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                          <div class="numbertext">23 / 88</div>
+                          <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_23.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                          <div class="numbertext">24 / 88</div>
+                          <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_24.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                          <div class="numbertext">25 / 88</div>
+                          <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_25.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                          <div class="numbertext">26 / 88</div>
+                          <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_26.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                          <div class="numbertext">27 / 88</div>
+                          <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_27.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                          <div class="numbertext">28 / 88</div>
+                          <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_28.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                          <div class="numbertext">29 / 88</div>
+                          <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_29.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                          <div class="numbertext">30 / 88</div>
+                          <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_30.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                          <div class="numbertext">31 / 88</div>
+                          <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_31.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides">
+                            <div class="numbertext">32 / 88</div>
+                            <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_32.jpg" style="width:100%">
+                          </div>
+                          <div class="mySlides">
+                            <div class="numbertext">33 / 88</div>
+                            <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_33.jpg" style="width:100%">
+                          </div>
+                          <div class="mySlides">
+                            <div class="numbertext">34 / 88</div>
+                            <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_34.jpg" style="width:100%">
+                          </div>
+                          <div class="mySlides">
+                            <div class="numbertext">35 / 88</div>
+                            <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_35.jpg" style="width:100%">
+                          </div>
+                          <div class="mySlides">
+                            <div class="numbertext">36 / 88</div>
+                            <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_36.jpg" style="width:100%">
+                          </div>
+                          <div class="mySlides">
+                            <div class="numbertext">37 / 88</div>
+                            <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_37.jpg" style="width:100%">
+                          </div>
+                          <div class="mySlides">
+                            <div class="numbertext">38 / 88</div>
+                            <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_38.jpg" style="width:100%">
+                          </div>
+                          <div class="mySlides">
+                            <div class="numbertext">39 / 88</div>
+                            <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_39.jpg" style="width:100%">
+                          </div>
+                          <div class="mySlides">
+                              <div class="numbertext">40 / 88</div>
+                              <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_40.jpg" style="width:100%">
+                          </div>
+                          <div class="mySlides">
+                            <div class="numbertext">41 / 88</div>
+                            <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_41.jpg" style="width:100%">
+                          </div>
+                          <div class="mySlides">
+                              <div class="numbertext">42 / 88</div>
+                              <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_42.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides">
+                              <div class="numbertext">43 / 88</div>
+                              <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_43.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides">
+                              <div class="numbertext">44 / 88</div>
+                              <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_44.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides">
+                              <div class="numbertext">45 / 88</div>
+                              <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_45.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides">
+                              <div class="numbertext">46 / 88</div>
+                              <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_46.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides">
+                              <div class="numbertext">47 / 88</div>
+                              <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_47.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides">
+                              <div class="numbertext">48 / 88</div>
+                              <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_48.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides">
+                              <div class="numbertext">49 / 88</div>
+                              <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_49.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides">
+                              <div class="numbertext">50 / 88</div>
+                              <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_50.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides">
+                                <div class="numbertext">51 / 88</div>
+                                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_51.jpg" style="width:100%">
+                              </div>
+                            <div class="mySlides">
+                                <div class="numbertext">52 / 88</div>
+                                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_52.jpg" style="width:100%">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">53 / 88</div>
+                                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_53.jpg" style="width:100%">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">54 / 88</div>
+                                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_54.jpg" style="width:100%">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">55 / 88</div>
+                                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_55.jpg" style="width:100%">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">56 / 88</div>
+                                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_56.jpg" style="width:100%">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">57 / 88</div>
+                                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_57.jpg" style="width:100%">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">58 / 88</div>
+                                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_58.jpg" style="width:100%">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">59 / 88</div>
+                                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_59.jpg" style="width:100%">
+                              </div>
+                              <div class="mySlides">
+                                  <div class="numbertext">60 / 88</div>
+                                  <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_60.jpg" style="width:100%">
+                              </div>
+                              <div class="mySlides">
+                              <div class="numbertext">61 / 88</div>
+                              <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_61.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides">
+                                <div class="numbertext">62 / 88</div>
+                                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_62.jpg" style="width:100%">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">63 / 88</div>
+                                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_63.jpg" style="width:100%">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">64 / 88</div>
+                                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_64.jpg" style="width:100%">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">65 / 88</div>
+                                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_65.jpg" style="width:100%">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">66 / 88</div>
+                                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_66.jpg" style="width:100%">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">67 / 88</div>
+                                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_67.jpg" style="width:100%">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">68 / 88</div>
+                                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_68.jpg" style="width:100%">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">69 / 88</div>
+                                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_69.jpg" style="width:100%">
+                              </div>
+                              <div class="mySlides">
+                                  <div class="numbertext">70 / 88</div>
+                                  <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_70.jpg" style="width:100%">
+                              </div>
+                              <div class="mySlides">
+                                <div class="numbertext">71 / 88</div>
+                                <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_71.jpg" style="width:100%">
+                              </div>
+                              <div class="mySlides">
+                                  <div class="numbertext">72 / 88</div>
+                                  <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_72.jpg" style="width:100%">
+                                </div>
+                                <div class="mySlides">
+                                  <div class="numbertext">73 / 88</div>
+                                  <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_73.jpg" style="width:100%">
+                                </div>
+                                <div class="mySlides">
+                                  <div class="numbertext">74 / 88</div>
+                                  <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_74.jpg" style="width:100%">
+                                </div>
+                                <div class="mySlides">
+                                  <div class="numbertext">75 / 88</div>
+                                  <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_75.jpg" style="width:100%">
+                                </div>
+                                <div class="mySlides">
+                                  <div class="numbertext">76 / 88</div>
+                                  <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_76.jpg" style="width:100%">
+                                </div>
+                                <div class="mySlides">
+                                  <div class="numbertext">77 / 88</div>
+                                  <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_77.jpg" style="width:100%">
+                                </div>
+                                <div class="mySlides">
+                                  <div class="numbertext">78 / 88</div>
+                                  <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_78.jpg" style="width:100%">
+                                </div>
+                                <div class="mySlides">
+                                  <div class="numbertext">79 / 88</div>
+                                  <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_79.jpg" style="width:100%">
+                                </div>
+                                <div class="mySlides">
+                                    <div class="numbertext">80 / 88</div>
+                                    <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_80.jpg" style="width:100%">
+                                </div>
+                                <div class="mySlides">
+                                    <div class="numbertext">81 / 88</div>
+                                    <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_81.jpg" style="width:100%">
+                                  </div>
+                                  <div class="mySlides">
+                                      <div class="numbertext">82 / 88</div>
+                                      <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_82.jpg" style="width:100%">
+                                    </div>
+                                    <div class="mySlides">
+                                      <div class="numbertext">83 / 88</div>
+                                      <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_83.jpg" style="width:100%">
+                                    </div>
+                                    <div class="mySlides">
+                                      <div class="numbertext">84 / 88</div>
+                                      <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_84.jpg" style="width:100%">
+                                    </div>
+                                    <div class="mySlides">
+                                      <div class="numbertext">85 / 88</div>
+                                      <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_85.jpg" style="width:100%">
+                                    </div>
+                                    <div class="mySlides">
+                                      <div class="numbertext">86 / 88</div>
+                                      <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_86.jpg" style="width:100%">
+                                    </div>
+                                    <div class="mySlides">
+                                      <div class="numbertext">87 / 88</div>
+                                      <img loading="lazy" src="../../../img/sedes/sede-santiago/galeria/sd_fotos_santiago_87.jpg" style="width:100%">
+                                    </div>
+
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+                <div class="caption-container">
+                  <p id="caption"></p>
+                </div>
+              </div>
+            </div>
+
+
+
+        
+    </div>
+    <script src="../../../js/main.js"></script>
+    <script src="../../../js/gallery.js"></script>
+
+    <script>
+        ;(function() {
+            
+            
+            // other stuff
+            function setClickHandler(id, fn) {
+                document.getElementById(id).onclick = fn
+            }
+
+            setClickHandler('video_container', function(e) {
+                var className = e.target.className
+                if (~className.indexOf('htmlvid')) {
+                    BigPicture({
+                        el: e.target,
+                        vidSrc: e.target.getAttribute('vidSrc'),
+                    })
+                } else if (~className.indexOf('vimeo')) {
+                    BigPicture({
+                        el: e.target,
+                        vimeoSrc: e.target.getAttribute('vimeoSrc'),
+                    })
+                } else if (~className.indexOf('twin-peaks')) {
+                    BigPicture({
+                        el: e.target,
+                        ytSrc: e.target.getAttribute('ytSrc'),
+                        dimensions: [1226, 900],
+                    })
+                } else if (~className.indexOf('youtube')) {
+                    BigPicture({
+                        el: e.target,
+                        ytSrc: e.target.getAttribute('ytSrc'),
+                    })
+                }
+            })
+            
+        })()
+        
+    </script>
+    
+</body>
+</html>i
