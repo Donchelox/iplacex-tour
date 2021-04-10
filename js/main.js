@@ -10,13 +10,13 @@ function toggleCloseSiderbar(){
     
 }
 function sedeCopiapo(){
-    window.location.replace("sede-copiapo/galeria/index.html");
+    window.location.replace("sede/sede-copiapo/galeria/index.html");
 }
 function sedeSantiago(){
-    window.location.replace("sede-santiago/galeria/index.html");
+    window.location.replace("sede/sede-santiago/galeria/index.html");
 }
 function sedeTalca(){
-    window.location.replace("sede-talca/galeria/index.html");
+    window.location.replace("sede/sede-talca/galeria/index.html");
 }
 function ctecArica(){
     window.location.replace("ct-arica/galeria/index.html");
