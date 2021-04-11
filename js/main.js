@@ -76,73 +76,73 @@ function sedeSantiago2(){
     activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
-    aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_01.jpg');
+    aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_02.jpg');
 }
 function sedeSantiago3(){
     activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
-    aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_01.jpg');
+    aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_03.jpg');
 }
 function sedeSantiago4(){
     activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
-    aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_01.jpg');
+    aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_04.jpg');
 }
 function sedeSantiago5(){
     activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
-    aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_01.jpg');
+    aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_05.jpg');
 }
 function sedeSantiago6(){
     activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
-    aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_01.jpg');
+    aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_06.jpg');
 }
 function sedeSantiago7(){
     activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
-    aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_01.jpg');
+    aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_07.jpg');
 }
 function sedeSantiago8(){
     activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
-    aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_01.jpg');
+    aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_08.jpg');
 }
 function sedeSantiago9(){
     activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
-    aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_01.jpg');
+    aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_09.jpg');
 }
 function sedeSantiago10(){
     activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
-    aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_01.jpg');
+    aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_10.jpg');
 }
 function sedeSantiago11(){
     activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
-    aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_01.jpg');
+    aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_11.jpg');
 }
 function sedeSantiago12(){
     activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
-    aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_01.jpg');
+    aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_12.jpg');
 }
 function sedeSantiago13(){
     activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
-    aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_01.jpg');
+    aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_13.jpg');
 }
 
 // 360 sede Copiapo
