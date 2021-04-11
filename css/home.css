@@ -166,3 +166,7 @@
   background-image: url('../img/sedes/thumbnails/ct_fotos_punta_arenas_06.jpg');
   background-size: cover;
 }
+.item-sedes.cte-presentacion {
+  background-image: url('../img/sedes/thumbnails/ctec-video-thumbnail.jpg');
+  background-size: cover;
+}
