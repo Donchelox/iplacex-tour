@@ -17,6 +17,10 @@
     user-select: none;
 }
 //CSS
+.menu-item>h3.active {
+    border-left: 16px solid #D52B1E;
+    padding-left: 6px;
+}
 .d-none{
     display: none !important;
 }
@@ -67,7 +71,18 @@ main{
     grid-template-columns: 1fr 1fr 1fr 1fr; 
     grid-gap: 10px;
 }
-
+.grid-video{
+    display: grid;
+    grid-template-columns: 1fr; 
+    margin: 0px 300px;
+}
+/*
+#video-talca {
+    width: 100%;
+    height: auto;
+    margin:0px 200px;
+  }
+*/
 .item-sedes>a{
     color:white;
     text-decoration: none;
@@ -169,5 +184,8 @@ main{
     #galeria-miniaturas>h3{
         font-size: 1.6em !important;
         padding: 0px 20px;
+    }
+    .grid-video{
+        margin: 0px 20px;
     }
 }

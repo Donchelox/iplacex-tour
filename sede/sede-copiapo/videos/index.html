@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour IPLACEX</title>
+    <link rel="shortcut icon" href="https://www.iplacex.cl/hubfs/favico.jpg">
+    <link rel="stylesheet" href="../../../css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet" />
+    <link href="../../../css/player.css" rel="stylesheet">
+    <link href="../../../css/videologo.css" rel="stylesheet">
+    
+    <style>
+        .video-js.vjs-16-9 {
+        padding-top: 56.25%;
+        }
+        .vjs-playback-rate{
+            display:none !important;
+        }
+    </style>    
+</head>
+<body>
+<main>
+       <!-- Menu-->
+       <nav id="sidebar-menu" class="cerrar">
+        <sidebar id="sidebar">
+            <div id="content-sidebar">
+                <a href="../../../index.html">
+                    <div onclick="returnHomeGaleria()" id="logo"></div>
+                </a>
+                <!--Menú-->
+                <div id="menu">
+                    <div id="scroll-menu" class="">
+                        <!--Menu sedes-->
+                        <div class="menu-lateral escuelas" id="level-1">
+    
+                            <div onclick="escuelaAdministracion()" class="menu-item carreras-link  dropdown">
+                                <h3>Sede Santiago</h3><i class="fa fa-angle-down"></i>
+                                <div class="dropdown-content">
+                                    <a href="../../sede-santiago/360/index.html">
+                                      <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                    <a href="../../sede-santiago/galeria/index.html">
+                                      <div class="sub-a icon-gallery">Galería</div></a>
+                                      <a href="../../sede-santiago/videos/index.html">
+                                          <div class="sub-a icon-gallery">Video</div></a>
+                                  </div>
+                            </div>
+                            <div onclick="escuelaHumanidades()" onclick="escuelaHumanidades" class="menu-item carreras-link  dropdown">
+                                <h3>Sede Copiapó</h3><i class="fa fa-angle-down"></i>
+                                <div class="dropdown-content">
+                                    <a href="../../sede-copiapo/360/index.html">
+                                      <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                    <a href="../../sede-copiapo/galeria/index.html">
+                                      <div class="sub-a icon-gallery">Galería</div></a>
+                                      <a href="../../sede-copiapo/videos/index.html">
+                                          <div class="sub-a icon-gallery">Video</div></a>
+                                  </div>
+                            </div>
+                            <div onclick="escuelaHumanidades()" onclick="escuelaHumanidades" class="menu-item carreras-link  dropdown">
+                                <h3>Sede Talca</h3><i class="fa fa-angle-down"></i>
+                                <div class="dropdown-content-bottom">
+                                    <a href="../../sede-talca/360/index.html" class="d-none">
+                                      <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                    <a href="../../sede-talca/galeria/index.html">
+                                      <div class="sub-a icon-gallery">Galería</div></a>
+                                      <a href="../../sede-talca/videos/index.html">
+                                          <div class="sub-a icon-gallery">Video</div></a>
+                                  </div>
+                            </div>
+                            
+                            <div onclick="sedesCTEC()" class="menu-item carreras-link">
+                                <h3>Centros tecnológicos</h3><i class="fa fa-angle-right"></i>
+                            </div>
+                        </div>
+                        <!--FIN Menu sedes-->
+                        <!--Menu CT-->
+                        <div class="menu-lateral escuelas" id="level-ctec">
+                            <div onclick="regresarMenu()" class="menu-item-regresar menu-item-level">
+                                <h3><i class="fa fa-angle-left"></i> Regresar</h3></i>
+                            </div>
+                            <div class="menu-item carreras-link dropdown">
+                                <h3>CTEC Arica</h3><i class="fa fa-angle-down"></i>
+                                <div class="dropdown-content">
+                                    <a href="../../ct-arica/360/index.html">
+                                      <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                    <a href="../../ct-arica/galeria/index.html">
+                                      <div class="sub-a icon-gallery">Galería</div></a>
+                                      <a href="../../ct-arica/videos/index.html">
+                                          <div class="sub-a icon-gallery">Video</div></a>
+                                </div>
+                            </div>
+                            <div class="menu-item carreras-link dropdown">
+                                <h3>CTEC Antofagasta</h3><i class="fa fa-angle-down"></i>
+                                <div class="dropdown-content">
+                                    <a href="../../ct-antofagasta/360/index.html">
+                                      <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                    <a href="../../ct-antofagasta/galeria/index.html">
+                                      <div class="sub-a icon-gallery">Galería</div></a>
+                                      <a href="../../ct-antofagasta/videos/index.html">
+                                          <div class="sub-a icon-gallery">Video</div></a>
+                                </div>
+                            </div>
+                            <div class="menu-item carreras-link dropdown">
+                                <h3>CTEC La Serena</h3><i class="fa fa-angle-down"></i>
+                                <div class="dropdown-content">
+                                    <a href="../../ct-laserena/360/index.html">
+                                      <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                    <a href="../../ct-laserena/galeria/index.html">
+                                      <div class="sub-a icon-gallery">Galería</div></a>
+                                      <a href="../../ct-laserena/videos/index.html">
+                                          <div class="sub-a icon-gallery">Video</div></a>
+                                </div>
+                            </div>
+                            
+                            <div class="menu-item carreras-link dropdown">
+                                <h3>CTEC Valparaíso</h3><i class="fa fa-angle-down"></i>
+                                <div class="dropdown-content">
+                                    <a href="../../ct-valparaiso/360/index.html">
+                                      <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                    <a href="../../ct-valparaiso/galeria/index.html">
+                                      <div class="sub-a icon-gallery">Galería</div></a>
+                                      <a href="../../ct-valparaiso/videos/index.html">
+                                          <div class="sub-a icon-gallery">Video</div></a>
+                                </div>
+                            </div>
+                            <div class="menu-item carreras-link dropdown">
+                                <h3>CTEC República</h3><i class="fa fa-angle-down"></i>
+                                <div class="dropdown-content">
+                                    <a href="../../ct-santiago/360/index.html">
+                                      <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                    <a href="../../ct-santiago/galeria/index.html">
+                                      <div class="sub-a icon-gallery">Galería</div></a>
+                                      <a href="../../ct-santiago/videos/index.html">
+                                          <div class="sub-a icon-gallery">Video</div></a>
+                                </div>
+                            </div>
+                            <div class="menu-item carreras-link dropdown">
+                                <h3>CTEC Temuco</h3><i class="fa fa-angle-down"></i>
+                                <div class="dropdown-content">
+                                    <a href="../../ct-temuco/360/index.html">
+                                      <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                    <a href="../../ct-temuco/galeria/index.html">
+                                      <div class="sub-a icon-gallery">Galería</div></a>
+                                      <a href="../../ct-temuco/videos/index.html">
+                                          <div class="sub-a icon-gallery">Video</div></a>
+                                </div>
+                            </div>
+                            <div class="menu-item carreras-link dropdown">
+                                <h3>CTEC Concepción</h3><i class="fa fa-angle-down"></i>
+                                <div class="dropdown-content">
+                                    <a href="../../ct-concepcion/360/index.html">
+                                      <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                    <a href="../../ct-concepcion/galeria/index.html">
+                                      <div class="sub-a icon-gallery">Galería</div></a>
+                                      <a href="../../ct-concepcion/videos/index.html">
+                                          <div class="sub-a icon-gallery">Video</div></a>
+                                </div>
+                            </div>
+                            <div class="menu-item carreras-link dropdown">
+                                <h3>CTEC Puerto Montt</h3><i class="fa fa-angle-down"></i>
+                                <div class="dropdown-content">
+                                  <a href="../../ct-puertomontt/360/index.html">
+                                    <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                  <a href="../../ct-puertomontt/galeria/index.html">
+                                    <div class="sub-a icon-gallery">Galería</div></a>
+                                    <a href="../../ct-puertomontt/videos/index.html">
+                                        <div class="sub-a icon-gallery">Video</div></a>
+                                </div>
+                            </div>
+                            <div onclick="escuelaIngenieria()" class="menu-item menu-item-level dropdown">
+                                <h3>CTEC Punta Arenas</h3><i class="fa fa-angle-down"></i>
+                                <div class="dropdown-content-bottom">
+                                    <a href="../../ct-puntaarenas/360/index.html">
+                                      <div class="sub-a icon-360">Recorrido 360º</div></a>
+                                    <a href="../../ct-puntaarenas/galeria/index.html">
+                                      <div class="sub-a icon-gallery">Galería</div></a>
+                                      <a href="../../ct-puntaarenas/videos/index.html">
+                                          <div class="sub-a icon-gallery">Video</div></a>
+                                  </div>
+                            </div>
+                        </div>
+                        <!--FIN Menu CT-->
+                    </div>
+                </div>
+                <!--Termina Menú-->
+            </div>
+        </sidebar>
+        <!--Menu Boton abri y cerrar menu-->
+        <div class="toggle-menu">
+            <i id="open" onclick="toggleSiderbarMenu()" class="fa fa-bars"></i>
+        
+        </div>
+        <!--FIN Menu Boton abri y cerrar menu-->
+    </nav>
+    <!-- Fin Menu-->
+   
+    <div class="main galeria">
+        <h3>Presentación Sede Copiapó</h3>        
+        <div id="video_container" class="container">
+            <div class="grid-video">
+                <video id="video-talca" class="video-js vjs-theme-fantasy" controls preload="auto" poster="../../../img/sedes/poster-videocopiapo.jpg" data-setup='{ "aspectRatio":"711:400", "playbackRates": [1, 1.5, 2] }'>
+                    <source src="../../../videos/video_copiapo.mp4" type="video/mp4" />
+                    <source src="MY_VIDEO.webm" type="video/webm" />
+                </video>
+            </div>
+        </div>
+        
+        
+    </div>
+    <script src="../../../js/main.js"></script>
+    <script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
+<script src="../../../js/videologo.js"></script>
+<script>
+  var player = videojs('my-video');
+
+  player.logo({
+    image: '../../../img/logo.png'
+  });
+</script>
+</body>
+</html>
