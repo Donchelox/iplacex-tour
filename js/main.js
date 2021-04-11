@@ -8,6 +8,9 @@ function toggleSiderbarMenu(){
 function toggleCloseSiderbar(){
     document.getElementById("cerrar").classList.toggle('d-none');   
 }
+function videoCTEC(){
+    window.location.href = "../../../sede/ctec/presentacion";
+}
 /*function activarFullscreen(){
     document.documentElement.classList.toggle('remove');
 }
