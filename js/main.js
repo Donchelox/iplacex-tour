@@ -8,10 +8,10 @@ function toggleSiderbarMenu(){
 function toggleCloseSiderbar(){
     document.getElementById("cerrar").classList.toggle('d-none');   
 }
-function activarFullscreen(){
+/*function activarFullscreen(){
     document.documentElement.classList.toggle('remove');
 }
-/*function sedeCopiapo(){
+function sedeCopiapo(){
     window.location.replace("sede/sede-copiapo/galeria/index.html");
 }
 function sedeSantiago(){
@@ -59,87 +59,86 @@ function sedesCTEC(){
 }
 
 function volver360(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
 }
 
 // 360 sede santiago
 function sedeSantiago1(){
-    activarFullscreen();
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_01.jpg');
 }
 function sedeSantiago2(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_02.jpg');
 }
 function sedeSantiago3(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_03.jpg');
 }
 function sedeSantiago4(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_04.jpg');
 }
 function sedeSantiago5(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_05.jpg');
 }
 function sedeSantiago6(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_06.jpg');
 }
 function sedeSantiago7(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_07.jpg');
 }
 function sedeSantiago8(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_08.jpg');
 }
 function sedeSantiago9(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_09.jpg');
 }
 function sedeSantiago10(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_10.jpg');
 }
 function sedeSantiago11(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_11.jpg');
 }
 function sedeSantiago12(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_12.jpg');
 }
 function sedeSantiago13(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/sede-santiago/360/sd_santiago_13.jpg');
@@ -147,25 +146,25 @@ function sedeSantiago13(){
 
 // 360 sede Copiapo
 function sedeCopiapo1(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/sede-copiapo/360/sd_copiapo_01.jpg');
 }
 function sedeCopiapo2(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/sede-copiapo/360/sd_copiapo_02.jpg');
 }
 function sedeCopiapo3(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/sede-copiapo/360/sd_copiapo_03.jpg');
 }
 function sedeCopiapo4(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/sede-copiapo/360/sd_copiapo_04.jpg');
@@ -173,19 +172,19 @@ function sedeCopiapo4(){
 
 // 360 sede Talca
 function sedeTalca1(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/sede-talca/360/sede_talca_01.jpg');
 }
 function sedeTalca2(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/sede-talca/360/sede_talca_01.jpg');
 }
 function sedeTalca3(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/sede-talca/360/sede_talca_01.jpg');
@@ -194,19 +193,19 @@ function sedeTalca3(){
 
 // 360 Ctec Antofagasta
 function ctecAntofagasta1(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/ct-antofagasta/360/centro_antofagasta_01.jpg');
 }
 function ctecAntofagasta2(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/ct-antofagasta/360/centro_antofagasta_02.jpg');
 }
 function ctecAntofagasta3(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/ct-antofagasta/360/centro_antofagasta_03.jpg');
@@ -214,19 +213,19 @@ function ctecAntofagasta3(){
 
 // 360 Ctec Arica
 function ctecArica1(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/ct-arica/360/centro_arica_01.jpg');
 }
 function ctecArica2(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/ct-arica/360/centro_arica_02.jpg');
 }
 function ctecArica3(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/ct-arica/360/centro_arica_03.jpg');
@@ -234,13 +233,13 @@ function ctecArica3(){
 
 // 360 Ctec Concepción
 function ctecConcepcion1(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/ct-concepcion/360/centro_concepcion_01.jpg');
 }
 function ctecConcepcion2(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/ct-concepcion/360/centro_concepcion_02.jpg');
@@ -248,19 +247,19 @@ function ctecConcepcion2(){
 
 // 360 Ctec Punta Arenas
 function ctecPuntaArenas1(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/ct-puntaarenas/360/centro_punta_arenas_01.jpg');
 }
 function ctecPuntaArenas2(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/ct-puntaarenas/360/centro_punta_arenas_02.jpg');
 }
 function ctecPuntaArenas3(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/ct-puntaarenas/360/centro_punta_arenas_03.jpg');
@@ -268,19 +267,19 @@ function ctecPuntaArenas3(){
 
 // 360 Ctec Republica
 function ctecRepublica1(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/ct-santiago/360/centro_republica_01.jpg');
 }
 function ctecRepublica2(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/ct-santiago/360/centro_republica_02.jpg');
 }
 function ctecRepublica3(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/ct-santiago/360/centro_republica_03.jpg');
@@ -288,19 +287,19 @@ function ctecRepublica3(){
 
 // 360 Ctec Temuco
 function ctecTemuco1(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/ct-temuco/360/centro_temuco_01.jpg');
 }
 function ctecTemuco2(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/ct-temuco/360/centro_temuco_02.jpg');
 }
 function ctecTemuco3(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/ct-temuco/360/centro_temuco_03.jpg');
@@ -308,25 +307,25 @@ function ctecTemuco3(){
 
 // 360 Ctec Valparaiso
 function ctecValparaiso1(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/ct-valparaiso/360/centro_valparaiso_01.jpg');
 }
 function ctecValparaiso2(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/ct-valparaiso/360/centro_valparaiso_02.jpg');
 }
 function ctecValparaiso3(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/ct-valparaiso/360/centro_valparaiso_03.jpg');
 }
 function ctecValparaiso4(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/ct-valparaiso/360/centro_valparaiso_04.jpg');
@@ -334,19 +333,19 @@ function ctecValparaiso4(){
 
 // 360 Ctec puerto montt
 function pMontt1(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/ct-puertomontt/360/centro_puertomontt_01.jpg');
 }
 function pMontt2(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/ct-puertomontt/360/centro_puertomontt_02.jpg');
 }
 function pMontt3(){
-    activarFullscreen();
+    //activarFullscreen();
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/ct-puertomontt/360/centro_puertomontt_03.jpg');
