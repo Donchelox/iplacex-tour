@@ -11,6 +11,9 @@ function toggleCloseSiderbar(){
 function videoCTEC(){
     window.location.href = "../../../sede/ctec/presentacion";
 }
+function videoCTECRecorridos(){
+    window.location.href = "../sede/ctec/presentacion";
+}
 /*function activarFullscreen(){
     document.documentElement.classList.toggle('remove');
 }
@@ -171,6 +174,12 @@ function sedeCopiapo4(){
     document.getElementById("galeria-miniaturas").classList.toggle('d-none');
     document.getElementById("recorrido-360").classList.toggle('d-none');
     aSky.setAttribute('src', '../../../img/sedes/sede-copiapo/360/sd_copiapo_04.jpg');
+}
+function sedeCopiapo5(){
+    //activarFullscreen();
+    document.getElementById("galeria-miniaturas").classList.toggle('d-none');
+    document.getElementById("recorrido-360").classList.toggle('d-none');
+    aSky.setAttribute('src', '../../../img/sedes/sede-copiapo/360/sd_copiapo_05.jpg');
 }
 
 // 360 sede Talca
